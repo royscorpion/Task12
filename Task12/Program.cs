@@ -10,7 +10,7 @@ namespace Task12
     {
         static void Main(string[] args)
         {
-            //Ввод исходных данных
+            //Моделирование объекта окружности при помощи классов
             #region Ввод исходных данных с проверкой их корректности
             Console.WriteLine("Демонстрация вывода методов статического класса Circle");
             Console.Write("Введите радиус круга (r): ");
@@ -86,6 +86,7 @@ namespace Task12
 
     }
 
+    //Определение статического класса Circle
     public static class Circle
     {
         public static double Circumference(double radius)
